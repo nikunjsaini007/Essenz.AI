@@ -1,5 +1,4 @@
 ![Status](https://img.shields.io/badge/status-WIP-yellow)
-![Built With](https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue)
 # Essenz.AI
 
 **Essenz.AI** is an AI-powered study assistant designed to help students learn faster, revise smarter, and understand better.

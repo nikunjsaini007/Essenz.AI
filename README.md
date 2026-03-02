@@ -1,167 +1,174 @@
 ![Status](https://img.shields.io/badge/status-WIP-yellow)
+
 # Essenz.AI
 
-**Essenz.AI** is an AI-powered study assistant designed to help students learn faster, revise smarter, and understand better.
+Essenz.AI is an AI-powered study assistant built to help students understand faster, revise smarter, and feel less overwhelmed before exams.
 
-It allows users to summarize PDFs, summarize YouTube videos, and interact with an AI assistant for study-related tasks all in one place.
+It simplifies long PDFs into structured summaries and lets you interact with an AI study assistant — all in one clean space.
 
-This project is currently under development and is being built step by step while learning full-stack and backend development from scratch.
+This project is being built step by step as part of my full-stack development journey.
 
 ---
 
-## Why Essenz.AI?
+## Why I Built This
 
-As a student, I often faced:
+As a student, I often struggled with:
 
 - Long PDFs before exams  
-- Long YouTube lectures with no quick summary  
-- Confusing notes  
+- Too much content and too little time  
+- Reading again and again without real clarity  
+- Messy notes  
 - Last-minute revision pressure  
-- Reading again and again without real understanding  
 
-Essenz.AI is built to solve that.
+I wanted something simple:
 
-The goal is simple:
+Upload the content → Let AI simplify it → Revise confidently.
 
-> Upload or paste content → Let AI simplify it → Learn smarter.
-
----
-
-## Core Features
-
-### 1. PDF Summarizer
-- Upload a PDF file
-- Extract text automatically
-- Generate clean, structured summaries
-- Short / Medium / Detailed summary
-- Key points for quick revision
-
-Perfect for exam preparation and quick review.
+Essenz.AI is my attempt to build that solution.
 
 ---
 
-### 2. YouTube Video Summary
-- Paste a YouTube video link
-- Extract transcript
-- Generate concise summary
-- Highlight important points
+## Current Features
 
-Helps convert long lectures into quick readable notes.
+### 1. PDF Upload + AI Summary (Working)
 
----
+You can:
 
-### 3. AI Study Chat
+- Upload a PDF file  
+- Automatically extract the text  
+- Generate structured AI summaries  
+- Choose between short, medium, or detailed summaries  
+- Get key points for quick revision  
 
-Users can:
+This feature is fully working and connected to the backend AI system.
 
-- Ask doubts from uploaded content
-- Generate MCQs
-- Generate short & long answer questions
-- Ask for explanations in simple language
-- Request revision notes
-- Convert content into flashcards
-- Get concept breakdowns
-- Ask anything study-related
-
-Instead of separate tools, everything is handled through intelligent AI interaction.
+It’s especially helpful for:
+- Exam preparation  
+- Quick concept revision  
+- Breaking down dense material  
 
 ---
 
-## How It Is Being Built
+### 2. AI Study Chat (Working)
 
-Essenz.AI is being developed using a clean and scalable structure.
+Essenz.AI includes an interactive AI assistant.
+
+You can:
+
+- Ask general study-related questions  
+- Get explanations in simple language  
+- Generate MCQs  
+- Generate short-answer questions  
+- Generate long-answer questions  
+- Create revision notes  
+- Turn topics into flashcards  
+- Ask for concept breakdowns  
+
+The chatbot is fully integrated using Flask backend routes and LLM APIs.
+
+---
+
+## Features in Progress
+
+### 1. Context-Based PDF Q&A
+
+Currently building:
+
+- Ask questions specifically about your uploaded PDF  
+- AI responds based only on that document  
+- More accurate and context-aware answers  
+
+Goal: Make Essenz.AI a document-aware assistant, not just a general chatbot.
+
+---
+
+### 2. YouTube Transcript + Summary
+
+In development:
+
+- Paste a YouTube video link  
+- Automatically fetch the transcript  
+- Generate a clean summary  
+- Extract key learning points  
+
+Goal: Turn long lectures into quick, readable notes.
+
+---
+
+## Tech Stack
 
 ### Frontend
-- HTML
-- CSS
-- JavaScript
-- Modern responsive UI
-- Single-page layout
+- HTML  
+- CSS  
+- JavaScript  
+- Responsive single-page layout  
 
-### Backend (In Progress)
-- Python
-- Flask
-- API routes for:
-  - PDF processing
-  - YouTube processing
-  - AI communication
-- JSON-based request/response system
+### Backend
+- Python  
+- Flask  
+- Modular API routes  
+- JSON-based communication  
+- Clean route-service structure  
 
 ### AI Integration
 - LLM API for:
-  - Summarization
-  - Question generation
-  - Explanations
-  - Custom prompts
-
-The architecture follows a structured backend system with routes, services, and utilities for scalability.
+  - Summarization  
+  - Question generation  
+  - Explanations  
+  - Chat interaction  
 
 ---
 
 ## Current Status
 
-- ✅ Frontend UI designed  
-- 🔄 Backend development in progress  
-- 🔄 Implementing Flask routes  
-- 🔄 AI API integration ongoing  
-- 🔄 PDF & YouTube processing being implemented  
+- Frontend UI completed  
+- PDF upload working  
+- AI summary generation working  
+- AI chatbot implemented  
+- Context-based PDF Q&A in progress  
+- YouTube transcript extraction in progress  
 
-This is an active work in progress.
+The project is actively evolving.
 
 ---
 
-## Goals of This Project
+## What This Project Means to Me
 
-Essenz.AI is not just a college project.
+Essenz.AI is not just a college assignment.
 
 It is:
 
-- A full-stack learning journey  
-- A hands-on backend development practice  
-- An AI-powered realworld application  
+- My hands-on backend learning journey  
+- My introduction to real AI integration  
+- My first serious full-stack system  
 - A portfolio-level project  
-- A foundation for future AI-based SaaS ideas  
+- A foundation for future AI-based tools  
+
+Every feature is being built while learning from scratch.
 
 ---
 
-## Future Improvements
+## Future Plans
 
-- User authentication system  
-- Save study history  
+- User authentication  
+- Save uploaded documents  
+- Chat history  
 - Cloud deployment  
-- Performance optimization  
+- Performance improvements  
 - Cleaner dashboard UI  
-- Potential freemium model  
-
----
-
-## What I’m Learning Through This Project
-
-- Backend development with Flask  
-- API design and routing  
-- JavaScript fetch & async handling  
-- AI prompt engineering  
-- Clean project architecture  
-- Full-stack workflow  
+- Possible SaaS model  
 
 ---
 
 ## Author
 
-Built with curiosity and ambition by a first-year CSE student exploring:
+Built with curiosity and consistency by a first-year CSE student exploring:
 
 - Artificial Intelligence  
 - Backend Development  
-- Full-stack systems  
+- Full-Stack Systems  
 - Real product building  
 
 ---
 
-## Note
-
-Essenz.AI is currently under development.  
-Features and implementation details may evolve as the project grows.
-
----
-
-> Learn. Build. Improve. Repeat.
+Learn. Build. Improve. Repeat.
